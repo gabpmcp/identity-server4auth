@@ -1,0 +1,6 @@
+services:
+  identityserver:
+    build: .
+    image: identityserver4auth:latest
+    ports:
+      - "5000:80"
